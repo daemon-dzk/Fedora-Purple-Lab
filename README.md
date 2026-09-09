@@ -1,6 +1,6 @@
 # 🛡️ Fedora Purple Lab
 
-**Automated Security & CTF Toolkit untuk Fedora GNOME Workstation**
+==== Automated Security & CTF Toolkit for Fedora GNOME === 
 
 ## Fitur Utama
 - 🚀 **One-click CTF Tools Installation** (Nmap, Ghidra, Wireshark, dll.)
