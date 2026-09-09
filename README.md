@@ -2,11 +2,11 @@
 
 ==== Automated Security & CTF Toolkit for Fedora GNOME === 
 
-## Fitur Utama
-- 🚀 **One-click CTF Tools Installation** (Nmap, Ghidra, Wireshark, dll.)
-- 🔒 **Automated System Hardening** (Firewall, Kernel, GNOME Privacy)
-- 📁 **Encrypted CTF Workspace** (LUKS terenkripsi dengan struktur folder)
-- 🎯 **Optimized untuk Fedora 40+ GNOME**
+## Features
+- One-click CTF Tools Installation (Nmap, Ghidra, Wireshark, dll.)
+- Automated System Hardening (Firewall, Kernel, GNOME Privacy)
+- Encrypted CTF Workspace (LUKS terenkripsi dengan struktur folder)
+- Optimized for Fedora 40+ GNOME
 
 ## Quick Install
 ```bash
