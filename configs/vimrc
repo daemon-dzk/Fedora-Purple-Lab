@@ -1,0 +1,31 @@
+" Vim Config for CTF & Coding
+" ============================================
+
+" Syntax & Highlighting
+syntax on
+set number
+set relativenumber
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+
+" Search
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+" Python specific
+autocmd FileType python set tabstop=4 shiftwidth=4 expandtab
+autocmd FileType python set foldmethod=indent
+
+" Plugins (kalo pake vim-plug)
+" call plug#begin('~/.vim/plugged')
+" Plug 'preservim/nerdtree'
+" Plug 'vim-python/python-syntax'
+" call plug#end()
+
+" Key mappings
+map <C-n> :NERDTreeToggle<CR>
+map <F5> :w<CR>:!python3 %<CR>

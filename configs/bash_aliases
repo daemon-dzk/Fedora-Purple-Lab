@@ -1,0 +1,30 @@
+# CTF & Pentesting Aliases for Fedora Purple Lab
+# ============================================
+
+# --- Network Scanning ---
+alias nmap-fast='sudo nmap -T4 -F'
+alias nmap-full='sudo nmap -T4 -p- -A'
+alias nmap-scripts='sudo nmap -T4 --script=default'
+
+# --- Web Tools ---
+alias sqlmap='sqlmap --batch'
+alias wfuzz='wfuzz -c'
+alias nikto='nikto -Format html'
+
+# --- Forensics ---
+alias binwalk='binwalk -e'
+alias strings='strings -n 8'
+
+# --- Workspace ---
+alias ctf-mount='sudo cryptsetup open $HOME/ctf-container.img ctf_volume && sudo mount /dev/mapper/ctf_volume ~/CTF-Workspace'
+alias ctf-umount='sudo umount ~/CTF-Workspace && sudo cryptsetup close ctf_volume'
+alias ctf='cd ~/CTF-Workspace'
+
+# --- System ---
+alias update='sudo dnf update -y'
+alias security='sudo lynis audit system'
+alias logs='sudo journalctl -f'
+
+# --- CTF Helpers ---
+alias revshell='python3 -c "import pty;pty.spawn(\"/bin/bash\")"'
+alias hashid='hash-identifier'
